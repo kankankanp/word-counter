@@ -34,14 +34,14 @@ export const Table: React.FC<InputProps> = ({ text }) => {
     <table className="w-full text-black">
       <tbody>
         <tr>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             改行、空白を除いた文字数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
             {allTextsCount}
             <span className="text-sm"> 文字</span>
           </td>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             英単語数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
@@ -50,14 +50,14 @@ export const Table: React.FC<InputProps> = ({ text }) => {
           </td>
         </tr>
         <tr>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             半角文字数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
             {halfWidthCount}
             <span className="text-sm"> 文字</span>
           </td>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             全角文字数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
@@ -66,14 +66,14 @@ export const Table: React.FC<InputProps> = ({ text }) => {
           </td>
         </tr>
         <tr>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             空白を含む文字数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
             {textWithoutIndentsCount}
             <span className="text-sm"> 文字</span>
           </td>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             改行、空白を含む文字数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
@@ -82,14 +82,14 @@ export const Table: React.FC<InputProps> = ({ text }) => {
           </td>
         </tr>
         <tr>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             文章数
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">
             {sentenceCount}
             <span className="text-sm"> 文字</span>
           </td>
-          <th className="border-white border-b-[1px] px-4 py-2 text-white bg-lightBlue">
+          <th className="border-white border-b-[1px] px-4 py-2  bg-lightBlue">
             原稿用紙枚数(400字)
           </th>
           <td className="border border-lightBlue px-4 py-2 text-black font-bold text-2xl">

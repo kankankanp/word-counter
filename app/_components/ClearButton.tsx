@@ -8,7 +8,7 @@ export const ClearButton: React.FC<ClearButtonProps> = ({ setText }) => {
   return (
     <button
       onClick={() => setText("")}
-      className="bg-orange text-white px-4 py-2 rounded-md hover:bg-lightGray"
+      className="bg-orange text-black px-4 py-2 rounded-md hover:bg-lightGray hover:text-white duration-300"
     >
       クリア
     </button>
