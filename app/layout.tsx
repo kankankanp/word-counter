@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "文字数カウント",
   // TODO:変更の必要あり
-  description: "テキストボックスに入力された文字数をリアルタイムにカウントします。",
+  description:
+    "テキストボックスに入力した文字数をリアルタイムにカウントできる無料ツールです。",
 };
 
 export default function RootLayout({
@@ -24,7 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-8226596723597751" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
